@@ -1,4 +1,4 @@
-## Item price limit exceeded detection script
+## Item price :moneybag: limit exceeded detection script
 
 This script can be used to detect if any item in the items arrays has price over the accepted limit. The price limit can be passed as an argument to the script. Following menu structure is needed to use this script.
 
@@ -77,11 +77,13 @@ This script can be used to detect if any item in the items arrays has price over
     }
 }
 ```
-### How to run the script
+### How to run the script :nerd_face:
 `python3 menu_price_checker.py -n sample_menu.json -p 20000`
+
 or
+
 `python3 menu_price_checker.py --file-name sample_menu.json --price-limit 20000`
 
 ### Available arguments
-- --file-name or -n : Name of the sample menu in json format. 
-- --price-limit or -p : Price limit of the items.
+- --file-name or -n : Name of the sample menu file :file_cabinet: in json format. 
+- --price-limit or -p : Price limit :moneybag: of the items.
